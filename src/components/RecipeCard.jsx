@@ -12,7 +12,7 @@ const RecipeCard = ({recipe}) => {
       <div  className='card-body'>
 <span className='category'>{StrCategory}</span>         
 <h3>{strMeal}</h3>
-<a href={"https://www.themealdb.com/meal/"+idMeal} target="_blank">Ingredients</a>
+<a href={"https://www.themealdb.com/meal/"+idMeal}  alt="page not found" target="_blank">Ingredients</a>
       </div>
     </div>
   )
